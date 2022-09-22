@@ -56,26 +56,17 @@
                 </div>
             </div>
 
-            <div class="container-fluid" id="lower-header">
-                <div class="row" id="banner">
-                    <div class="col">banner</div>
+            <div class="container-fluid">
+                <div class="row">
+                    <img id="banner" src="../assets/background.png" alt="provided by vecteezy.com">
                 </div>
-                <div class="row shadow p-4 mb-4 bg-white" id="about">
-                    <div class="col-3" id="avatar-name">
-                        <div class="row">
-                            <div class="col-sm-2"></div>
-                            <div class="col-sm-8"><img class="img-fluid" src="../assets/avatars/capy.jpg" alt="El Carpincho"
-                                    id="avatar"></div>
-                            <div class="col-sm-2"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-2"></div>
-                            <div class="col-sm-8">R. Pablo Araya</div>
-                            <div class="col-sm-2"></div>
-                        </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row shadow p-4 mb-4 bg-white" style="margin-top:0px;margin-bottom:1em;border-radius:0px;border-bottom-left-radius: 1em;border-bottom-right-radius: 1em;">
+                    <div class="col-sm" id="avatar" style="border:1px black dotted">
+                        <img class="img-fluid rounded-circle center-block" src="../assets/avatars/capy.jpg" alt="carpinchito">
                     </div>
-                    <div class="col-9" id="about-info">
-                        <div></div>
+                    <div class="col-sm" id="about" style="border:1px black dotted">
                     </div>
                 </div>
             </div>
@@ -88,175 +79,29 @@
             <div class="container-fluid" id="personal-content">
                 <div class="row" id="experience">
                     <div class="col-10 shadow p-4 mb-4 bg-white">
-                        <p>
-                            {{ paragraph1 }}
-                        </p>
-                        <p>Nam congue eu sapien mollis aliquet. Mauris eget diam sit amet quam accumsan
-                            suscipit.
-                            Duis
-                            ac elementum
-                            justo, et auctor sem. Sed eleifend risus non urna pulvinar faucibus. Donec porttitor
-                            tincidunt
-                            volutpat.
-                            Pellentesque ultrices felis et purus maximus cursus. Sed id massa id felis pulvinar blandit
-                            quis
-                            nec
-                            lacus.
-                            Duis ullamcorper vulputate lectus, et rhoncus velit sollicitudin a. Donec at mi velit.
-                            Integer
-                            risus
-                            turpis,
-                            ultrices feugiat justo luctus, accumsan euismod ipsum. Vestibulum tempor tincidunt mi at
-                            condimentum. Ut
-                            diam ante, maximus eu hendrerit ut, ornare ut erat. Duis eleifend, massa eu feugiat rutrum,
-                            nibh
-                            arcu
-                            dictum
-                            turpis, at eleifend nibh ante ac nisi. Etiam ut leo eget dolor pulvinar sollicitudin.
-                            Pellentesque
-                            consequat
-                            nisi in ex dignissim, non imperdiet ligula varius.</p>
+                        <p> {{ experience1 | uppercase }} </p>
+                        <p> {{ experience2 }} </p>
                     </div>
                 </div>
 
                 <div class="row" id="education">
                     <div class="col-10 shadow p-4 mb-4 bg-white">
-                        <p>Etiam ac libero in ante commodo dapibus non non velit. Maecenas quis sodales
-                            nunc,
-                            quis
-                            euismod eros. Nullam
-                            id velit turpis. Nunc vel hendrerit orci, id sollicitudin magna. Aenean suscipit, leo eu
-                            faucibus
-                            hendrerit,
-                            urna neque aliquam leo, ut rutrum tortor ex in nulla. Aenean laoreet, elit quis scelerisque
-                            tincidunt,
-                            neque
-                            enim imperdiet magna, in lacinia sapien enim fermentum orci. Morbi eu dui at leo semper
-                            rutrum.
-                            Sed
-                            iaculis
-                            tortor sit amet suscipit varius. Duis posuere ipsum quis leo condimentum, pulvinar tincidunt
-                            velit
-                            sollicitudin. Nam auctor porta risus, vitae tincidunt erat dapibus at. Pellentesque
-                            hendrerit
-                            tempor
-                            justo,
-                            feugiat fermentum leo commodo ac.</p>
-                        <p>Nam congue eu sapien mollis aliquet. Mauris eget diam sit amet quam accumsan
-                            suscipit.
-                            Duis
-                            ac
-                            elementum
-                            justo, et auctor sem. Sed eleifend risus non urna pulvinar faucibus. Donec porttitor
-                            tincidunt
-                            volutpat.
-                            Pellentesque ultrices felis et purus maximus cursus. Sed id massa id felis pulvinar blandit
-                            quis
-                            nec
-                            lacus.
-                            Duis ullamcorper vulputate lectus, et rhoncus velit sollicitudin a. Donec at mi velit.
-                            Integer
-                            risus
-                            turpis,
-                            ultrices feugiat justo luctus, accumsan euismod ipsum. Vestibulum tempor tincidunt mi at
-                            condimentum. Ut
-                            diam ante, maximus eu hendrerit ut, ornare ut erat. Duis eleifend, massa eu feugiat rutrum,
-                            nibh
-                            arcu
-                            dictum
-                            turpis, at eleifend nibh ante ac nisi. Etiam ut leo eget dolor pulvinar sollicitudin.
-                            Pellentesque
-                            consequat
-                            nisi in ex dignissim, non imperdiet ligula varius.
-                        </p>
+                        <p> {{ education1 | uppercase }} </p>
+                        <p> {{ education2 }} </p>
                     </div>
                 </div>
 
                 <div class="row" id="skills">
                     <div class="col-10 shadow p-4 mb-4 bg-white">
-                        <p>Aenean non fermentum libero. Sed rhoncus condimentum lacus, ut varius purus
-                            ornare
-                            vitae.
-                            Class
-                            aptent
-                            taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer ac
-                            tortor
-                            maximus,
-                            molestie ex a, dignissim nunc. Vestibulum hendrerit laoreet risus, et sollicitudin libero
-                            aliquam
-                            in. In
-                            hac
-                            habitasse platea dictumst. Proin tristique elit eget nisl malesuada, id bibendum justo
-                            facilisis. </p>
-                        <p>In quis tellus sed risus cursus posuere ut viverra neque. Pellentesque sit amet
-                            odio
-                            nec elit
-                            lacinia
-                            accumsan ut vitae risus. Nullam posuere nisl id condimentum molestie. Curabitur cursus
-                            vulputate
-                            lorem,
-                            vitae eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-                            per
-                            inceptos
-                            himenaeos. Aenean tincidunt erat in neque maximus pretium. Duis dictum consectetur iaculis.
-                            Interdum
-                            et
-                            malesuada fames ac ante ipsum primis in faucibus. Sed laoreet, justo in tincidunt mattis,
-                            quam
-                            felis
-                            cursus
-                            est, et finibus lectus felis at tortor. Maecenas volutpat urna vel tristique consequat.
-                            Nulla
-                            laoreet
-                            nulla
-                            id iaculis tempus. Donec vulputate neque eu eros laoreet, scelerisque sollicitudin orci
-                            auctor.
-                        </p>
+                        <p> {{ skills1 | uppercase }} </p>
+                        <p> {{ skills2 }} </p>
                     </div>
                 </div>
 
                 <div class="row" id="projects">
                     <div class="col-10 shadow p-4 mb-4 bg-white">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut posuere ligula. Aenean eu
-                            auctor quam.
-                            Maecenas convallis gravida ligula iaculis ornare. Aenean nec ligula aliquet, finibus nunc
-                            eget,
-                            placerat
-                            est. Cras vel semper turpis. Aliquam erat volutpat. Class aptent taciti sociosqu ad litora
-                            torquent
-                            per
-                            conubia nostra, per inceptos himenaeos. Pellentesque id purus nec nibh efficitur posuere
-                            eget
-                            quis
-                            elit.
-                        </p>
-                        <p>Nam congue eu sapien mollis aliquet. Mauris eget diam sit amet quam accumsan
-                            suscipit.
-                            Duis
-                            ac elementum
-                            justo, et auctor sem. Sed eleifend risus non urna pulvinar faucibus. Donec porttitor
-                            tincidunt
-                            volutpat.
-                            Pellentesque ultrices felis et purus maximus cursus. Sed id massa id felis pulvinar blandit
-                            quis
-                            nec
-                            lacus.
-                            Duis ullamcorper vulputate lectus, et rhoncus velit sollicitudin a. Donec at mi velit.
-                            Integer
-                            risus
-                            turpis,
-                            ultrices feugiat justo luctus, accumsan euismod ipsum. Vestibulum tempor tincidunt mi at
-                            condimentum. Ut
-                            diam ante, maximus eu hendrerit ut, ornare ut erat. Duis eleifend, massa eu feugiat rutrum,
-                            nibh
-                            arcu
-                            dictum
-                            turpis, at eleifend nibh ante ac nisi. Etiam ut leo eget dolor pulvinar sollicitudin.
-                            Pellentesque
-                            consequat
-                            nisi in ex dignissim, non imperdiet ligula varius.
-                        </p>
+                        <p> {{ project1 | uppercase }} </p>
+                        <p> {{ project2 }} </p>
                     </div>
                 </div>
             </div>

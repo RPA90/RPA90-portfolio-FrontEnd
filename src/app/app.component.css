@@ -39,6 +39,11 @@ div.row div {
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
 
+    /*
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    */
+
     margin-top: 0px;
     margin-bottom: 1em;
 
@@ -46,7 +51,7 @@ div.row div {
 
     height: 16em;
 
-    background-color: cornsilk;
+    background-color: lightgray;
 }
 
 #avatar{
@@ -56,9 +61,9 @@ div.row div {
     max-height: 128px;
     min-height: 64px;
     **/
+    padding: 1px;
 
-    max-height: 128px;
-    max-width: 128px;
+    width: 128px;
 }
 
 #avatar-name{
@@ -69,11 +74,13 @@ div.row div {
     align-content: center;
 }
 
+/*
 #about-info{
-    /*
+
     border: 1px solid black;
-    */
+
 }
+*/
 
 #whitespace {
     text-align: center;
@@ -127,10 +134,10 @@ div.shadow{
 
     height:fit-content;
 
-    padding: 1em;
-
+    margin: 0px;
     margin-top: 1em;
-    margin-bottom: 0px;
+
+    padding: 0px;
 
     text-align: center;
     text-shadow: 1em;
