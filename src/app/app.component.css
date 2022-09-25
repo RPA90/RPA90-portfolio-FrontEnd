@@ -50,8 +50,6 @@ div.row div {
     padding: 3em;
 
     height: 16em;
-
-    background-color: lightgray;
 }
 
 #avatar{
@@ -61,9 +59,7 @@ div.row div {
     max-height: 128px;
     min-height: 64px;
     **/
-    padding: 1px;
-
-    width: 128px;
+    padding:1px;
 }
 
 #avatar-name{
@@ -74,13 +70,11 @@ div.row div {
     align-content: center;
 }
 
-/*
 #about-info{
 
     border: 1px solid black;
 
 }
-*/
 
 #whitespace {
     text-align: center;

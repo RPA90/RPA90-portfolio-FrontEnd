@@ -2,11 +2,22 @@ import { Component, NgModule, OnInit } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-//import { Title } from "@angular/platform-browser";
+import { HeadComponent } from './head/head.component';
+import { FooterComponent } from './footer/footer.component';
+import { ExpComponent } from './exp/exp.component';
+import { EducComponent } from './educ/educ.component';
+import { SkillsComponent } from './skills/skills.component';
+import { ProjComponent } from './proj/proj.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeadComponent,
+    FooterComponent,
+    ExpComponent,
+    EducComponent,
+    SkillsComponent,
+    ProjComponent
   ],
   imports: [
     BrowserModule
