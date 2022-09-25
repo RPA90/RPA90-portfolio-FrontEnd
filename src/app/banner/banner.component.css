@@ -1,0 +1,17 @@
+#banner{
+    border-radius: 0px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+
+    height:fit-content;
+
+    margin: 0px;
+    margin-top: 1em;
+
+    padding: 0px;
+
+    text-align: center;
+    text-shadow: 1em;
+
+    border: 1px palevioletred dotted;
+}

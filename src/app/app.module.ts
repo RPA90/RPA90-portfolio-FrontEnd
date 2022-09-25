@@ -8,6 +8,9 @@ import { ExpComponent } from './exp/exp.component';
 import { EducComponent } from './educ/educ.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProjComponent } from './proj/proj.component';
+import { HeaderComponent } from './header/header.component';
+import { BannerComponent } from './banner/banner.component';
+import { UserinfoComponent } from './userinfo/userinfo.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { ProjComponent } from './proj/proj.component';
     ExpComponent,
     EducComponent,
     SkillsComponent,
-    ProjComponent
+    ProjComponent,
+    HeaderComponent,
+    BannerComponent,
+    UserinfoComponent
   ],
   imports: [
     BrowserModule

@@ -1,60 +1,11 @@
-<!DOCTYPE html>
-<html>
-
-<body style="background-color: lightgray;">
     <div class="container-fluid shadow p-4 mb-4 bg-gray" id="main-container">
         <header>
-            <!-- Banner de la página -->
-            <div class="container-fluid shadow p-4 mb-4 bg-white" id="upper-header">
-                <div class="container">
-                    <div class="row" style="height: 100%;">
-                        <div class="col-sm-2" id="ap-logo">
-                            <img class="img-fluid float-start" src="../assets/AP-logo-negro-color.png"
-                                alt="Logo Argentina Programa">
-                        </div>
-                        <div class="col-sm-6" id="ap-text">
-                            Argentina<br>programa
-                        </div>
-                        <div class="col-sm-4" id="header-buttons">
-                            <div class="row">
-                                <div class="col-sm" style="padding-top: 4px;padding-bottom: 4px;">
-                                    <button type="button" class="btn btn-light"><a href="#">Instagram</a></button>
-                                </div>
-                                <div class="col-sm" style="padding-top: 4px;padding-bottom: 4px;">
-                                    <button type="button" class="btn btn-light"><a href="#">Mail</a></button>
-                                </div>
-                                <div class="col-sm" style="padding-top: 4px;padding-bottom: 4px;">
-                                    <button type="button" class="btn btn-primary"><a href="#"
-                                            style="color: white;">Acceso</a></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Banner de la página -->
-            <div class="container-fluid">
-                <div class="row">
-                    <img id="banner" src="../assets/background.png" alt="provided by vecteezy.com">
-                </div>
-            </div>
-
-            <!-- Avatar e información -->
-            <div class="container-fluid">
-                <div class="row shadow p-4 mb-4 bg-white"
-                    style="margin-top:0px;margin-bottom:1em;border-radius:0px;border-bottom-left-radius: 1em;border-bottom-right-radius: 1em;">
-                    <div class="col-sm" id="avatar" style="border:1px black dotted">
-                        <img class="img-fluid rounded-circle center-block" src="../assets/avatars/capy.jpg"
-                            alt="carpinchito">
-                    </div>
-
-                    <div class="col-sm" id="about" style="border:1px black dotted">
-                        <!-- -->
-                    </div>
-                </div>
-            </div>
+            <app-header></app-header>
         </header>
+        <!-- Banner de la página -->
+        <app-banner></app-banner>
+        <!-- Avatar e información -->
+        <app-userinfo></app-userinfo>
         <!--
     <nav>
     </nav> 
@@ -82,9 +33,5 @@
         </div>
     </div>
     <footer>
-        <h5 id="footer-copyright">Copyright 2022 RPA PRODUCCIONES</h5>
+        <app-footer></app-footer>
     </footer>
-    <!-- </div> -->
-</body>
-
-</html>
